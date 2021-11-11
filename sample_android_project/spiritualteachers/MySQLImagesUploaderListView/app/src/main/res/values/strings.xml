@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My SQLImagesUploaderListView</string>
+    <string name="spiritual_teachers_list">Spiritual Teachers List</string>
+    <string name="spiritual_teachers_app">Spiritual Teachers App</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
+    <string name="choose_photo">Choose Photo..</string>
+    <string name="send">Send</string>
+    <string name="view_all">View All</string>
+    <string name="teacher_name">Teacher Name</string>
+    <string name="teacher_description">Teacher Description --------------------</string>
+</resources>
