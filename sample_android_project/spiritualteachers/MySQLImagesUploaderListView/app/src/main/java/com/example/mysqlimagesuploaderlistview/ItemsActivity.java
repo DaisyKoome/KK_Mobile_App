@@ -111,7 +111,7 @@ public class ItemsActivity extends AppCompatActivity {
     */
 
     public class DataRetriever{
-        private static final String PHP_MYSQL_SITE_URL="http://10.0.2.2/php/spiritualteachers/index.php";
+        private static final String PHP_MYSQL_SITE_URL="http://aquagauge.co.ke/spiritualteachers/index.php";
         //INSTANCE FIELDS
         private final Context c;
         private ListViewAdapter adapter;
@@ -146,7 +146,7 @@ public class ItemsActivity extends AppCompatActivity {
                                     String description = jo.getString("teacher_description");
                                     String imageURL = jo.getString("teacher_image_url");
 
-                                    teacher = new Teacher(name,description,PHP_MYSQL_SITE_URL + "/images/" + imageURL);
+                                    teacher = new Teacher(name,description, imageURL);
                                     teachers.add(teacher);
                                 }
 
